@@ -1,0 +1,25 @@
+{
+    "students" : [
+
+        {
+            "name" : "Manish",
+            "branch" : "MnC"
+        },
+
+        {
+            "name" : "satyen",
+            "branch" : "meta"
+        },
+
+        {
+            "name" : "himanshu",
+            "branch" : "min"
+        }
+    ],
+    
+    "admin" : {
+        "warden" : "kallu singh",
+        "peon" : "mathalu singh"
+    }
+
+}

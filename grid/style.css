@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "one one one"
+    "five five three"
+    "two four four";
+}
+
+.Box1{
+    background-color: blue;
+    grid-area: one;
+}
+.Box2{
+    background-color:green;
+    grid-area: two;
+}
+.Box3{
+    background-color:red;
+    grid-area: three;
+}
+.Box4{
+    background-color:pink;
+    grid-area: four;
+}
+.Box5{
+    background-color:palegreen;
+    grid-area: five;
+}
+
+
+@media screen and (max-width:600px){
+    body{
+
+        width:200vh;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five";
+    }
+}

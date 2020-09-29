@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester SPI</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="container modify">
+        <h3 class="text-center">Semester SPI List</h1>
+
+        <!-- <div class="container bg-success text-center" id="spi-added">SPI Added!</div> -->
+
+        
+            <form id="form">
+                <div class="form-group">
+                    <label for="name">Which Semester?</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="spi">SPI?</label>
+                    <input type="text" id="spi" class="form-control">
+                </div>
+                <button class="btn btn-primary" type="submit" id="submit">Submit</button>
+            </form>
+        
+        <table class="table m-3">
+            <thead>
+                <th>Semester</th>
+                <th>SPI</th>
+                <th></th>
+            </thead>
+            <tbody id="spi-list">
+
+            </tbody>
+        </table>
+    </div>
+
+<script src="app.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Convertor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-5 text-center">Length Convertor</h1>
+                <form>
+                    <div class="form-group form-group-lg">
+                        <input type="number" id="lgth" class="form-control" placeholder="Enter length in meter..">
+                    </div>
+                </form>
+                <div class="card mb-2">
+                    <div class="card-block bg-success pl-2">
+                        <h6 class="display-5">Inch :</h4>
+                        <div id="outputInch"></div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-block bg-danger pl-2">
+                        <h6 class="display-5">Foot :</h4>
+                        <div id="outputFoot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

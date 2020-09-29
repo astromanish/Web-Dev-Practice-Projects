@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main_content">
+            <h1>Application for permission to date my daughter</h1>
+            <p><b>Note:</b> Form is to be completed at least 21 days prior to the date.</p>
+           <form>
+               <fieldset>
+                   <legend>Personal Information</legend>
+                   Name:
+                   <input type="text" placeholder="Enter name here"><br><br>
+                   Address:
+                   <input type="text" placeholder="Enter address here"><br><br>
+                   Email:
+                   <input type="email" placeholder="Enter email here"><br><br>
+                   Phone Number:
+                   <input type="tel" placeholder="Enter 10 digit number"><br><br>
+                   Gender<br>
+                    <input type="radio" name="gender" checked>Male</input><br>
+                    <input type="radio" name="gender">Female</input><br>
+                    <input type="radio" name="gender">Other</input><br><br>
+                   Date of Proposed Outing:
+                   <input type="date">
+               </fieldset>
+               <br>
+               <fieldset>
+                   Check All That Apply <br><br>
+                   <input type="checkbox">I have tattoos and/or piercings.</input><br>
+                   <input type="checkbox">I am more then 2 years older than my daughter.</input><br>
+                   <input type="checkbox">I own panel van or V8 ute.</input><br>
+                   <input type="checkbox">I work full time.</input><br>
+                   <input type="checkbox">My parents are rich.</input><br>
+                   <input type="checkbox">Is the date at a well lit public location.</input><br>
+
+               </fieldset>
+               <br>
+               <fieldset>
+                    Political Persuasion: 
+                    <select>
+                        <option>Left Wing</option>
+                        <option>Right Wing</option>
+                        <option>Conservative</option>
+                        <option>Nazi</option>
+                    </select>
+                    Education Level Completed:
+                    <select>
+                        <option>University</option>
+                        <option>College</option>
+                        <option>School</option>
+                        <option>None</option>
+                    </select>
+               </fieldset>
+               <br>
+               <fieldset>
+                   <legend>Essay Section</legend>
+                   <p>In 50 words or more expalin why you want to date my daughter</p>
+                   <textarea placeholder="Enter Text Here" rows="5" cols="45"></textarea>
+                   <p>Please upload contact details for 2 references</p>
+                   <textarea placeholder="Enter Text Here" rows="5" cols="45"></textarea><br><br>
+                   <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:</p>
+                   <input type="file" value="Attach File">
+               </fieldset>
+               <br>
+               <input type="submit" value="Send Your Application" id="submit">
+           </form> 
+        </div>
+    </body>
+</html>

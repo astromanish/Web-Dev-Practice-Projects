@@ -1,0 +1,65 @@
+body
+{
+    background-color: black;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+
+img
+{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Layout */
+
+.container
+{
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.column
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col
+{
+    width:46%;
+    margin-bottom: 2em;
+}
+
+/* Typography */
+
+h1
+{
+    font-size: 2rem;
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* For Smaller Screen */
+
+@media (max-width: 600px)
+{
+    .column
+    {
+        flex-direction: column;
+    }
+
+    .col
+    {
+        width: 100%;
+    }
+}
+

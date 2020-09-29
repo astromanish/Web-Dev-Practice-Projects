@@ -1,0 +1,122 @@
+body
+{
+    color:#fff;
+}
+img
+{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* #######
+  Layout 
+  ####### */
+
+
+.container-1
+{
+    max-width: 960px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.container-2
+{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.site-heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: #ab183d;
+}
+
+.site-heading-title
+{
+    text-align: center;
+}
+
+.social-link
+{
+    text-align: center;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-col,.info
+{
+    border: 1px solid brown ;
+
+}
+
+.main-col-heading, .info-heading
+{
+    background-color: #ab183d;
+    font-size: 1.5rem;
+    margin-top: 0;
+
+}
+
+
+/* #######
+  Typography
+  ####### */
+
+.site-heading-subtitle
+{
+    margin-top: 0 ;
+}
+
+h1
+{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.facebook-link
+{
+    font-size: 1.5rem;
+    color: white;
+    background-color:#0000a0;
+    padding: 0 1.5em 0.5em 1.5em;
+}
+
+
+/* #######
+  Desktop Screen
+  ####### */
+
+@media (min-width:600px) 
+{
+    .site-heading
+    {
+        flex-direction: row;
+    }
+
+    main
+    {
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+    .main-column
+    {
+        width: 25%;
+    }
+}
+
+
+
