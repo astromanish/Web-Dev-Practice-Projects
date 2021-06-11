@@ -1,14 +1,25 @@
+axios({
+        method: 'post',
+        url: 'https://api.vimeo.com/videos/553625259/comments/',
+        headers: { 
+            'Authorization': 'Bearer 4795eb8e611bb1efe4cbfa990356cce8', 
+            'Content-Type': 'text/plain'
+            },
+        data : {
+            'text':"HEllo"
+        }
+    })
+    
+    .then(res => console.log(res))
+
+    .catch(err => console.error(err))
+
+
+
 
 document.getElementById("btn").addEventListener("click", ()=>{
 
-    axios({
-        method : "get",
-        url : "https://api.quarantine.country/api/v1/summary/latest"
-    })
     
-    .then(res => showOutput(res))
-
-    .catch(err => console.error(err))
 });
 
 
